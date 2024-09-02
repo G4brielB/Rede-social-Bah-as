@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.selecionar-linguagem{
+    position: absolute;
+    left: 20vw;
+    top: 17vh;
+}
+
+.linguagem{
+    padding: 10px;
+    border: solid 2px #422680;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo{
+    background-color: #422680;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    transition: 0.5s ease;
+}
+
+.titulo{
+    padding: 20px;
+    
+}
+
+.frente {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 20px 10px;
+    width: 400px;
+    box-shadow: 2px 2px 15px;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.5s ease;
+}
+
+.campo-email, .campo-senha{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-weight: 500;
+    position: relative;
+}
+
+.campo-email input, .campo-senha input{
+    border: solid 2px #AE2D68;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    font-size: 0.6em;
+
+}
+
+
+
+
+.campo-email input:focus{
+    outline: none;
+
+}
+.campo-senha input:focus{
+    outline: none;
+
+}
+
+
+
+.icone-mostrar{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 90%;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.esqueceu-senha {
+    text-decoration: none;
+    color: #AE2D68;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.btn {
+    border: none;
+    background-color: #422680;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    border-radius: 20px;
+    justify-content: flex-end;
+    border: solid 2px;
+}
+
+.criar-conta{
+    width: 150px;
+    background-color: #AE2D68;
+}
+
+.btn:hover{
+    border: solid 2px #422680;
+    background-color: white;
+    color: #422680;
+    transition: 0.5s ease;
+}
+
+.recuperar{
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.novo-usuario {
+    display: none;
+    transition: 0.5s ease;
+}
+
+.recuperar-senha{
+    display: none;
+}
+
+.campo-usuario{
+    display: none;
+}

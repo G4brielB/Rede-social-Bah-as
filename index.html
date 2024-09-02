@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="./src/styles/login.css">
+</head>
+<body>
+
+    <!--<header class="selecionar-linguagem">
+        <select name="linguagem" id="linguagem" class="linguagem">
+            <option value="pt-br"  chamada="./">Português</option>
+            <option value="en-us" chamada="./login.html">English</option>
+        </select>
+    </header>-->
+
+    <section class="container" id="displayEntrar">
+        <div class="fundo">
+            <h1 class="titulo">Entrar</h1>
+            <div class="frente">
+                <label class="campo-email">
+                    E-mail:
+                    
+                    <input type="email" placeholder="digite o seu email" id="email" required>
+                </label>
+                
+                <label class="campo-senha">
+                    Senha:
+                    
+                    <!--<img src="./images/hide.png" alt="hide" width="30px" class="icone-mostrar" id="iconeMostrar">-->
+                <input type="password" placeholder="Digite sua senha" id="senha" required> 
+
+                    
+                </label>
+
+
+                <a class="esqueceu-senha" id="esqueceuSenha">esqueceu sua senha? --em desenvolvimento</a>
+
+                <div class="recuperar-senha" id="recuperarSenha">
+
+                    <h1 style="margin-top: 20px;">Recuperar conta</h1>
+
+                    <label class="campo-email">
+                        Digite o seu email:
+                        
+                        <input type="email" placeholder="email" id="recuperar-email" required>
+                    </label>
+                    
+                    <label class="campo-senha">
+                        Digite a nova senha:
+                        <!--<img src="./images/hide.png" alt="hide" width="30px" class="icone-mostrar" id="iconeMostrar">-->
+                        
+                        <input type="password" placeholder="Nova senha" id=" recuperarSenha" required>
+                    </label>
+
+                    <label class="campo-senha">
+                        Confirme a nova senha:
+
+                        <!--<img src="./images/hide.png" alt="hide" width="30px" class="icone-mostrar" id="iconeMostrar">-->
+
+                        <input type="password" placeholder="Confirme sua senha" id="recuperarSenha" required>
+                    </label>
+
+                    <button class="recuperar btn">Recuperar</button>
+
+                </div>
+
+                <div class="botoes" id="botoesEntrar">
+                    <button class="btn criar-conta" id="criarConta">Criar Conta</button>
+                    <button class="btn enviar" id="entrar">Entrar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="novo-usuario" id="displayNovoUsuario">
+            <div class="fundo ">
+                <h1 class="titulo">Criar Conta</h1>
+                <div class="frente">
+                    <label class="campo-email">
+                        E-mail:
+                        
+                        <input type="email" placeholder="digite o seu email" id="criarEmail" required>
+                    </label>
+                    
+                    <label class="campo-senha">
+                        Crie uma senha:
+                        
+                        <!--<img src="./images/hide.png" alt="hide" width="30px" class="icone-mostrar" id="iconeMostrar">-->
+
+                        <input type="password" placeholder="Digite sua senha" id="criarSenha" required>
+                    </label>
+                    <span class="esqueceu-senha" id="mostrarErro"></span>
+                    <div class="botoes">
+                        <input type="submit" class="btn enviar" id="novoUser" value="Criar">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+        
+
+    <section class="container campo-usuario" id="displayUserName">
+        <div class="fundo">
+            <p class="titulo">Coloque seu nome de usuario</p>
+            <div class="frente">
+                <label for="" class="campo-email">
+                    <input type="text" placeholder="digite o seu nome de usuario" id="userName" required>
+                </label>
+                <input type="submit" value="Entrar" id="redirecionar" class="btn">
+            </div>
+        </div>
+    </section>
+
+    <script src="./src/script/script.js"></script>
+</body>
+</html>
