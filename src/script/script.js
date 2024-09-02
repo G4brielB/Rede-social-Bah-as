@@ -55,7 +55,7 @@ btnCriar.addEventListener('click', e => {
     criarEmail.value = campoDefault
     criarSenha.value = campoDefault
 
-    console.log(usuarios)
+
 })
 
 
