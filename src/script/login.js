@@ -1,9 +1,14 @@
 // esse array é só pra poder funcionar no github mesmo
 
-const usuarios = []
+const usuarios = [{
+    email: 'admin',
+    senha: 'admin'
+}]
 const userNames = []
 const campoDefault = ''
 
+
+console.log(usuarios.map(e => {return e}))
 
 
 
@@ -74,6 +79,7 @@ btnEntrar.addEventListener('click', e => {
     const userName = document.querySelector('#userName')
     
 
+
     let cont = 0
     while(true){
         if(usuarios[cont] != undefined){
@@ -84,18 +90,18 @@ btnEntrar.addEventListener('click', e => {
                     displayUserName.style.display = 'flex'
 
                     btnRedirecionar.addEventListener('click', e => {
-                        userNames.push(userName)
+                        userNames.push(userName.value)
+
+                        localStorage.setItem('user', userName.value)
                         window.location.href = './src/pages/home.html'
                     })
                     
                     break
                 }else{
-                    alert('Senha incorreta')
-                    break
+                    cont += 1
                 }
             }else{
-                alert('email incorreto')
-                break
+                cont += 1
             }
         }else{
             alert('conta não existe')
