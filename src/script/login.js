@@ -6,6 +6,7 @@ const campoDefault = ''
 
 
 
+
 const btnCriarConta = document.querySelector('#criarConta')
 btnCriarConta.addEventListener('click', e => {
     const displayNovoUsuario = document.querySelector('#displayNovoUsuario')
@@ -71,7 +72,7 @@ btnEntrar.addEventListener('click', e => {
     const displayUserName = document.querySelector('#displayUserName')
     const btnRedirecionar = document.querySelector('#redirecionar')
     const userName = document.querySelector('#userName')
-
+    
 
     let cont = 0
     while(true){
@@ -104,7 +105,7 @@ btnEntrar.addEventListener('click', e => {
     }
 })
 
-
+// Fim Criar Conta
 
 
 
