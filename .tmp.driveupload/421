@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 877811a9553d4c3dea2a85675f4cd7586591d8e9 Gabriel <g4brieldcs@gmail.com> 1725319917 -0300	commit (initial): Primeira versão com apenas as funções de cadastrar e entrar funcionando
+877811a9553d4c3dea2a85675f4cd7586591d8e9 0000000000000000000000000000000000000000 Gabriel <g4brieldcs@gmail.com> 1725319926 -0300	Branch: renamed refs/heads/main to refs/heads/main
+877811a9553d4c3dea2a85675f4cd7586591d8e9 877811a9553d4c3dea2a85675f4cd7586591d8e9 Gabriel <g4brieldcs@gmail.com> 1725319926 -0300	Branch: renamed refs/heads/main to refs/heads/main
+877811a9553d4c3dea2a85675f4cd7586591d8e9 4af0b5dbbd8a96161b5f030702140eda69669915 Gabriel <g4brieldcs@gmail.com> 1725320459 -0300	commit: tirei os console.log
+4af0b5dbbd8a96161b5f030702140eda69669915 71f1933057412c53a6d4c95fa5f3e55af2c17137 Gabriel <g4brieldcs@gmail.com> 1725410527 -0300	commit: iniciando interface da pagina inicial
+71f1933057412c53a6d4c95fa5f3e55af2c17137 a17032205275adc937abf55761eaeec17c1c477f Gabriel <g4brieldcs@gmail.com> 1725492351 -0300	commit: nome de usuario agora condiz com da primeira pagina
+a17032205275adc937abf55761eaeec17c1c477f a840cc93a517f8ffac8bff2d1f76077f7e0c2e32 Gabriel <g4brieldcs@gmail.com> 1725929169 -0300	commit: Função de fazer post está funcionando
