@@ -15,7 +15,10 @@ console.log(usuarios.map(e => {return e}))
 const btnCriarConta = document.querySelector('#criarConta')
 btnCriarConta.addEventListener('click', e => {
     const displayNovoUsuario = document.querySelector('#displayNovoUsuario')
+    
     displayNovoUsuario.style.display = 'block'
+
+
 })
 
 const btnRecuperarSenha = document.querySelector('#esqueceuSenha')
