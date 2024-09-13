@@ -5,6 +5,12 @@ perfilName.forEach(e => {
     e.innerText = user
 })
 
+const btnPerfil = document.querySelector('#redirectPerfil')
+btnPerfil.addEventListener('click', e => {
+
+    window.location.href = `/src/pages/perfil.html`
+})
+
 function criarPost() {
     const textoPostar = document.querySelector('#textoPostar')
     const sectionFeed = document.querySelector('#sectionFeed')
