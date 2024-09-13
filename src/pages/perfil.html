@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piu</title>
     <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/perfil.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -27,6 +28,30 @@
 
             
         </aside>
+
+
+        <div class="info-perfil"> 
+            <h1 class="titulo">
+                Informações do Perfil
+            </h1>
+            <div class="perfil">
+                <img class="foto-perfil" id="fotoPerfil" src="../images/perfil-default-300-px.png" alt="perfil" width="300px">
+                <p id="perfilName" class="nome-perfil"></p>
+                <div class="btns-perfil">
+                    <button class="btn-perfil" id="trocarPerfil">Trocar perfil</button>
+                    <button>Trocar nome</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-flutuante" id="uploadImage">
+            <button id="btnFechar">X</button>
+            <label>Faça upload da sua foto de perfil</label>
+            <input type="file">
+            <input type="submit">
+        </div>
+
+
     </section>
 
     <script src="../script/perfil.js"></script>
