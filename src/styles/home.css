@@ -10,6 +10,8 @@
 .cabecalho {
     background-color: #422680;
     border-bottom: solid 3px #AE2D68;
+    position: fixed;
+    width: 100vw;
 }
 
 .navegador{
@@ -41,7 +43,7 @@
 
 .feed{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 100px;
 }
 
@@ -53,12 +55,15 @@
     background-color: #d8d8d8;
     position: fixed;
     overflow: hidden;
+    margin-top: 83px;
 }
 
 .aside-list{
     display: flex;
     flex-direction: column;
 }
+
+
 
 .aside-list li {
     display: flex;
@@ -89,7 +94,7 @@
     width: 100vw;
     margin-left: 10vw;
     margin-right: 30vw;
-    margin-top: 20px;
+    margin-top: 100px;
     
 }
 
@@ -120,7 +125,7 @@
 
 .post{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     width: 100vw;
     margin-left: 10vw;
