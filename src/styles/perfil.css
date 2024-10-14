@@ -38,6 +38,7 @@
 .btns-perfil {
     display: flex;
     margin: 20px;
+    margin-bottom: 200px;
 }
 
 .btns-perfil button {
@@ -86,6 +87,21 @@
     
 }
 
+.btn-enviar{
+    background: linear-gradient(120deg, rgba(234,156,255,1) 0%, rgba(113,11,255,1) 100%);
+    border: none;
+    width: 90px;
+    height: 40px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 30vw;
+    margin-top: 5px;
+}
+
+
+
 
 @media(max-width: 650px){
     .info-perfil {
@@ -94,5 +110,8 @@
 
     .input-flutuante {
         margin-left: 0vw;
+        position: absolute;
+        left: 20vw;
+        height: 100vh;
     }
 }
